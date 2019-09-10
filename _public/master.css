@@ -1,0 +1,1093 @@
+@font-face {
+	font-family: 'CircularStdBook';
+	src: url('_fonts/CircularStdBook.eot');
+	src: url('_fonts/CircularStdBook.eot') format('embedded-opentype'),
+	     url('_fonts/CircularStdBook.woff2') format('woff2'),
+	     url('_fonts/CircularStdBook.woff') format('woff'),
+	     url('_fonts/CircularStdBook.ttf') format('truetype'),
+	     url('_fonts/CircularStdBook.svg#CircularStdBook') format('svg');
+}
+@font-face {
+  font-family: 'CircularStdBold';
+  src: url('_fonts/CircularStdBold.eot');
+  src: url('_fonts/CircularStdBold.eot') format('embedded-opentype'),
+       url('_fonts/CircularStdBold.woff2') format('woff2'),
+       url('_fonts/CircularStdBold.woff') format('woff'),
+       url('_fonts/CircularStdBold.ttf') format('truetype'),
+       url('_fonts/CircularStdBold.svg#CircularStdBold') format('svg');
+}
+@font-face {
+    font-family: 'CircularStdBlack';
+    src: url('_fonts/CircularStdBlack.eot');
+    src: url('_fonts/CircularStdBlack.eot') format('embedded-opentype'),
+         url('_fonts/CircularStdBlack.woff2') format('woff2'),
+         url('_fonts/CircularStdBlack.woff') format('woff'),
+         url('_fonts/CircularStdBlack.ttf') format('truetype'),
+         url('_fonts/CircularStdBlack.svg#CircularStdBlack') format('svg');
+}
+
+html,
+body {
+  font-size: 15px;
+  font-family: CircularStdBook, Arial, sans-serif;
+  color: #2d2926;
+}
+p {
+  font-size: 0.86rem;
+}
+.Unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+p {
+  line-height: 150%;
+  margin: -0.5em 0 1em 0;
+  text-align: left;
+  cursor: default;
+  font-size: 0.86rem;
+}
+a {
+  text-decoration: none;
+  color: text-color;
+}
+strong {
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0;
+  padding: 0 0;
+  font-weight: normal;
+  line-height: 100%;
+  position: relative;
+  cursor: default;
+  font-size: 1rem;
+}
+.Display2 {
+  font-size: 2rem;
+  font-family: CircularStdBlack, ArialBold, sans-serif;
+}
+.Display2.Black {
+  color: #000;
+}
+.Display1 {
+  font-size: 2.26rem;
+}
+.Headline {
+  font-size: 1.667rem;
+  font-family: CircularStdBold;
+}
+.Title {
+  font-size: 1.2rem;
+}
+.Subhead1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Caption {
+  font-size: 0.6rem;
+  font-family: CircularStdBold, ArialBold, sans-serif;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+.TextWhite {
+  color: #fff;
+}
+.FeatureLabel {
+  position: relative;
+  top: 2.3rem;
+  color: #000;
+  max-width: 95%;
+}
+.Error {
+  color: #ff000d;
+}
+.mb0 {
+  margin-bottom: 4px;
+}
+.mb1 {
+  margin-bottom: 8px;
+}
+.mb2 {
+  margin-bottom: 16px;
+}
+.mb3 {
+  margin-bottom: 24px;
+}
+.mb4 {
+  margin-bottom: 32px;
+}
+.mb5 {
+  margin-bottom: 40px;
+}
+.mb6 {
+  margin-bottom: 48px;
+}
+.mb7 {
+  margin-bottom: 56px;
+}
+.mb8 {
+  margin-bottom: 64px;
+}
+.mb9 {
+  margin-bottom: 72px;
+}
+.mb10 {
+  margin-bottom: 80px;
+}
+.mb11 {
+  margin-bottom: 88px;
+}
+.mb12 {
+  margin-bottom: 96px;
+}
+.mt0 {
+  margin-top: 4px;
+}
+.mt1 {
+  margin-top: 8px;
+}
+.mt2 {
+  margin-top: 16px;
+}
+.mt3 {
+  margin-top: 24px;
+}
+.mt4 {
+  margin-top: 32px;
+}
+.mt5 {
+  margin-top: 40px;
+}
+.mt6 {
+  margin-top: 48px;
+}
+.mt7 {
+  margin-top: 56px;
+}
+.mt8 {
+  margin-top: 64px;
+}
+.mt9 {
+  margin-top: 72px;
+}
+.mt10 {
+  margin-top: 80px;
+}
+.mt11 {
+  margin-top: 88px;
+}
+.mt12 {
+  margin-top: 96px;
+}
+.ml0 {
+  margin-left: 4px;
+}
+.ml1 {
+  margin-left: 8px;
+}
+.ml2 {
+  margin-left: 16px;
+}
+.ml3 {
+  margin-left: 24px;
+}
+.ml4 {
+  margin-left: 32px;
+}
+.ml5 {
+  margin-left: 40px;
+}
+.ml6 {
+  margin-left: 48px;
+}
+.ml7 {
+  margin-left: 56px;
+}
+.ml8 {
+  margin-left: 64px;
+}
+.ml9 {
+  margin-left: 72px;
+}
+.mt10 {
+  margin-left: 80px;
+}
+.mr0 {
+  margin-right: 4px;
+}
+.mr1 {
+  margin-right: 8px;
+}
+.mr2 {
+  margin-right: 16px;
+}
+.mr3 {
+  margin-right: 24px;
+}
+.mr4 {
+  margin-right: 32px;
+}
+.mr5 {
+  margin-right: 40px;
+}
+.mr6 {
+  margin-right: 48px;
+}
+.mr7 {
+  margin-right: 56px;
+}
+.mr8 {
+  margin-right: 64px;
+}
+.mr9 {
+  margin-right: 72px;
+}
+.mt10 {
+  margin-right: 80px;
+}
+.pb0 {
+  padding-bottom: 4px;
+}
+.pb1 {
+  padding-bottom: 8px;
+}
+.pb2 {
+  padding-bottom: 16px;
+}
+.pb3 {
+  padding-bottom: 24px;
+}
+.pb4 {
+  padding-bottom: 32px;
+}
+.pb5 {
+  padding-bottom: 40px;
+}
+.pb6 {
+  padding-bottom: 48px;
+}
+.pb7 {
+  padding-bottom: 56px;
+}
+.pb8 {
+  padding-bottom: 64px;
+}
+.pb9 {
+  padding-bottom: 72px;
+}
+.pb10 {
+  padding-bottom: 80px;
+}
+.pt0 {
+  padding-top: 4px;
+}
+.pt1 {
+  padding-top: 8px;
+}
+.pt2 {
+  padding-top: 16px;
+}
+.pt3 {
+  padding-top: 24px;
+}
+.pt4 {
+  padding-top: 32px;
+}
+.pt5 {
+  padding-top: 40px;
+}
+.pt6 {
+  padding-top: 48px;
+}
+.pt7 {
+  padding-top: 56px;
+}
+.pt8 {
+  padding-top: 64px;
+}
+.pt9 {
+  padding-top: 72px;
+}
+.pt10 {
+  padding-top: 80px;
+}
+.pl0 {
+  padding-left: 4px;
+}
+.pl1 {
+  padding-left: 8px;
+}
+.pl2 {
+  padding-left: 16px;
+}
+.pl3 {
+  padding-left: 24px;
+}
+.pl4 {
+  padding-left: 32px;
+}
+.pl5 {
+  padding-left: 40px;
+}
+.pl6 {
+  padding-left: 48px;
+}
+.pl7 {
+  padding-left: 56px;
+}
+.pl8 {
+  padding-left: 64px;
+}
+.pl9 {
+  padding-left: 72px;
+}
+.pl10 {
+  padding-left: 80px;
+}
+.pr0 {
+  padding-right: 4px;
+}
+.pr1 {
+  padding-right: 8px;
+}
+.pr2 {
+  padding-right: 16px;
+}
+.pr3 {
+  padding-right: 24px;
+}
+.pr4 {
+  padding-right: 32px;
+}
+.pr5 {
+  padding-right: 40px;
+}
+.pr6 {
+  padding-right: 48px;
+}
+.pr7 {
+  padding-right: 56px;
+}
+.pr8 {
+  padding-right: 64px;
+}
+.pr9 {
+  padding-right: 72px;
+}
+.pr10 {
+  padding-right: 80px;
+}
+.op50 {
+  opacity: 0.5;
+}
+.op30 {
+  opacity: 0.3;
+}
+.bbg {
+  border-bottom: 1px solid #f2f2f2;
+}
+.btg {
+  border-top: 1px solid #f2f2f2;
+}
+html {
+  min-height: 100%;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  background: #fff;
+  padding-bottom: 10vw;
+  font-family: CircularStdBook, Arial, sans-serif;
+}
+.Unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hidden {
+  display: none;
+  opacity: 0;
+}
+.StylesContainer {
+  padding: 50px;
+  background-color: #faf9f7;
+}
+.ContentContainer {
+  top: 50px;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.ContentContainer.Active {
+  z-index: 800;
+}
+.Snackbar {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  position: fixed;
+  background-image: linear-gradient(101deg, #ff6100, #ff000d 47%, #500072);
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  transform: translateY(60px);
+  transition: all 200ms ease-out;
+}
+.Snackbar span {
+  padding: 20px 16px;
+  display: block;
+  color: #fff;
+}
+.Snackbar.Active {
+  transform: translateY(0px);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+}
+.Snackbar.TypeNotif {
+  background-image: linear-gradient(101deg, #ff6100, #ff000d 47%, #500072);
+  background-color: #000;
+}
+.Snackbar.TypeConf {
+  background-image: none;
+  background-color: #62d78c;
+}
+.Snackbar.TypeError {
+  background-image: none;
+  background-color: #ff000d;
+}
+.Icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.IconHeartLight {
+  background-image: url("_img/_icon/light/heart.svg");
+}
+.IconHeartDark {
+  background-image: url("_img/_icon/dark/heart.svg");
+}
+.IconPlusLight {
+  background-image: url("_img/_icon/light/plus.svg");
+}
+.IconPlusDark {
+  background-image: url("_img/_icon/dark/plus.svg");
+}
+.IconArrowDropDownLight {
+  background-image: url("_img/_icon/light/arrow_drop_down.svg");
+}
+.IconArrowDropDownDark {
+  background-image: url("_img/_icon/dark/arrow_drop_down.svg");
+}
+.IconChevronLeftLight {
+  background-image: url("_img/_icon/light/chevron_left.svg");
+}
+.IconChevronLeftDark {
+  background-image: url("_img/_icon/dark/chevron_left.svg");
+}
+.IconGearLight {
+  background-image: url("_img/_icon/light/gear.svg");
+}
+.IconGearDark {
+  background-image: url("_img/_icon/dark/gear.svg");
+}
+.IconPersonLight {
+  background-image: url("_img/_icon/light/person.svg");
+}
+.IconPersonDark {
+  background-image: url("_img/_icon/dark/person.svg");
+}
+.IconPlaceLight {
+  background-image: url("_img/_icon/light/place.svg");
+}
+.IconPlaceDark {
+  background-image: url("_img/_icon/dark/place.svg");
+}
+.IconSearchLight {
+  background-image: url("_img/_icon/light/search.svg");
+}
+.IconSearchDark {
+  background-image: url("_img/_icon/dark/search.svg");
+}
+.IconStarLight {
+  background-image: url("_img/_icon/light/star.svg");
+}
+.IconStarDark {
+  background-image: url("_img/_icon/dark/star.svg");
+}
+.AppNav {
+  background: #fff;
+  border-top: 1px solid #f2f2f2;
+  font-size: 0.8rem;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 900;
+}
+.AppNav a {
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.AppNav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 18px 16px 16px 16px;
+}
+.AppNavAccount {
+  background: url("_img/_icon/light/person.svg") no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  height: 16px;
+  width: 16px;
+  text-indent: -9999px;
+}
+.ActiveTab {
+  font-weight: bold;
+  opacity: 1;
+}
+.NavItem {
+  font-size: 0.9rem;
+}
+.BankInfo {
+  font-size: 0.86rem;
+  margin-top: 5rem;
+  position: relative;
+}
+.BankInfoAmt {
+  position: relative;
+  top: -1rem;
+  left: 80%;
+}
+.FontSizeSm {
+  font-size: 0.8rem;
+}
+body {
+  padding: 0;
+}
+.LogInContainer {
+  background: #f00;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: -5px;
+  background-image: linear-gradient(160deg, #ff6100, #ff000d, #500072);
+}
+.LogInGreetingContainer {
+  height: 20%;
+  position: relative;
+  top: 25vh;
+  text-align: center;
+  padding: 1rem;
+}
+.LogInGreeting {
+  color: #fff;
+  font-size: 2.7rem;
+  font-family: 'CircularStdBlack', san-serif;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.ButtonLogIn,
+.ButtonSignUp {
+  display: block;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.ButtonLogin {
+  position: relative;
+  top: 35%;
+}
+.ButtonSignUp {
+  position: relative;
+  top: 38%;
+}
+.SignUpCTA {
+  font-size: 0.7rem;
+  height: 7%;
+  width: 60%;
+  position: relative;
+  top: 33%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.LogInDividerContainer {
+  height: 1px;
+  position: relative;
+  top: 35%;
+  opacity: 0.5;
+}
+.LogInDivider {
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
+  height: 1px;
+  width: 60%;
+}
+.LogInCTA {
+  font-size: 0.7rem;
+  height: 7%;
+  margin: 0 auto;
+  position: relative;
+  top: 37%;
+  text-align: center;
+  color: #fff;
+}
+.LogInAboutCasey {
+  font-size: 0.9rem;
+  text-align: center;
+  position: relative;
+  top: 58%;
+}
+.LogInAboutCasey a {
+  color: #fff;
+  opacity: 0.5;
+}
+.LogInFormContainer {
+  position: relative;
+  top: 40%;
+}
+.LogInForm {
+  background: #808080;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+.InputPadding {
+  padding: 1rem;
+}
+.PasswordHelp {
+  position: relative;
+  top: 42%;
+  height: 2rem;
+  text-align: center;
+}
+.PasswordHelp a {
+  color: #fff;
+  font-size: 0.85rem;
+}
+.ButtonShowPassword {
+  background: url("_img/_icon/dark/eye.svg") no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 1.3rem;
+  width: 1.3rem;
+  text-indent: -99999px;
+  opacity: 0.1;
+  position: absolute;
+  top: 64%;
+  right: 10%;
+  z-index: 9;
+}
+.ClearFloat {
+  clear: both;
+}
+.YourMoneySectionTitle {
+  font-size: 0.9rem;
+}
+.YourMoneySection {
+  width: 42%;
+  float: left;
+}
+.Earned {
+  border-right: solid 1px #f2f2f2;
+}
+.Spent {
+  border-right: solid 1px #f2f2f2;
+}
+.WhatsLeft {
+  width: 100%;
+}
+.WhatsLeft {
+  position: relative;
+  top: -28px;
+  left: 50%;
+  display: inline;
+}
+.WhatsLeftTitle {
+  position: relative;
+  right: 50%;
+  top: 2rem;
+}
+.WhatsLeftAmt {
+  position: relative;
+  right: 0.9rem;
+}
+.YourMoneySectionAmt {
+  font-size: 2rem;
+  font-family: 'CircularStdBold', sans-serif;
+}
+.ColorLine {
+  background-color: #f00;
+  background-image: linear-gradient(to right, #ff6100, #ff000d, #500072);
+  height: 6px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.FeatureHeader {
+  height: 17rem;
+}
+.BudgetHeaderProgBarContainer {
+  background: #f2f2f2;
+  height: 1.3rem;
+  margin: 0 1rem;
+  position: relative;
+  top: 2rem;
+}
+.BudgetHeaderProgBar {
+  background-image: linear-gradient(to right, #a7cc74, #00f48e);
+  display: block;
+  height: 100%;
+  width: 0%;
+  transition: all 900ms cubic-bezier(1, 0, 0, 1);
+}
+.ProgBarMarker {
+  height: 2rem;
+  width: 1px;
+  background: #000;
+  position: absolute;
+  left: 20%;
+  top: -0.3rem;
+}
+.BudgetDaysLeft {
+  text-align: center;
+  position: relative;
+  top: 6rem;
+  font-size: 0.9rem;
+}
+.BudgetTotal {
+  font-size: 0.9rem;
+  margin: -2rem 1rem 0 0;
+  float: right;
+  position: relative;
+  top: 5rem;
+}
+.ProgBarContainer {
+  background: #f2f2f2;
+  height: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+.Progress {
+  background-image: linear-gradient(to right, #00f48e, #a7cc74);
+  display: block;
+  height: 100%;
+  width: 0%;
+  transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+.DangerZone {
+  background-image: linear-gradient(to right, #fad961, #f00);
+}
+.OverBudgetBarContainer {
+  width: 100%;
+  height: 5px;
+}
+.OverBudgetBar {
+  display: block;
+  background-image: linear-gradient(to right, #9f041b, #f5515f);
+  height: 100%;
+  width: 96vw;
+}
+.OverBudgetContainer {
+  background: #ffe2e6;
+}
+.EditBudgetsBtnClose {
+  background: url("_img/_icon/dark/close.svg") no-repeat;
+  background-size: 100%;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 1rem;
+  text-indent: -9999px;
+  pointer: cursor;
+  top: 1rem;
+}
+.BudgetEditFeatureHeader {
+  height: 17rem;
+}
+.BtnBack {
+  display: flex;
+}
+.BtnBack div {
+  padding: 2px 0 0 10px;
+}
+.FontSize13 {
+  font-size: 0.9rem;
+}
+.BudgetDetailSpent {
+  margin-top: 6rem;
+  padding-bottom: 1rem;
+}
+.CenterText {
+  text-align: center;
+}
+.BudgetDetailLedgerSet {
+  position: relative;
+  top: 0.6rem;
+}
+.SmallFeatureHeader {
+  height: 9rem;
+}
+.LgFeatureHeader {
+  height: 19rem;
+}
+.ButtonSettingsBills {
+  background: url("_img/_icon/dark/gear.svg") no-repeat;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: -0.7rem;
+  left: 90%;
+  text-indent: -9999px;
+}
+.ButtonChevronRight {
+  background: url("_img/_icon/dark/chevron_right.svg") no-repeat;
+  background-position: center center;
+  background-size: 50%;
+  border: none;
+  height: 1rem;
+  width: 1rem;
+  text-indent: -9999px;
+}
+.FeatureLabel.NoNav {
+  height: 14.3rem;
+  top: 4.3rem;
+}
+.PersInfo {
+  height: 6rem;
+  width: 40%;
+  display: inline-block;
+}
+.PersInfo p {
+  line-height: 100%;
+}
+.FrapEdit {
+  background-color: #f00;
+  background-image: linear-gradient(to right, #ff6100, #ff000d, #500072);
+  color: #fff;
+  position: fixed;
+  bottom: 15vh;
+  right: 5vw;
+}
+.ButtonClose {
+  background: url("_img/_icon/dark/close.svg") no-repeat;
+  background-size: 100%;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 1rem;
+  text-indent: -9999px;
+  pointer: cursor;
+  top: 1rem;
+}
+.FormPersInfo {
+  position: relative;
+  top: -3rem;
+}
+.FormLabel {
+  margin: 1.5rem 0 1rem 0;
+  position: relative;
+  top: 1rem;
+  display: block;
+  font-size: 0.9rem;
+}
+.FormInput {
+  display: block;
+  outline: 1px solid #000;
+  position: relative;
+  top: 1rem;
+}
+.FormDropdown {
+  height: 2.8rem;
+  width: 100%;
+  background: url("_img/_icon/dark/arrow_drop_down.svg") no-repeat right;
+  border: none;
+}
+.FormSubmit {
+  position: fixed;
+  top: 80vh;
+  right: 5vw;
+}
+.Overlay {
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+  position: fixed;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  transition: all 200ms ease-out;
+  opacity: 0;
+  transform: translateY(10px);
+}
+.Overlay.Active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.OverlayClose {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  height: 32px;
+  width: 32px;
+  background: url("_img/_icon/dark/close.svg") no-repeat;
+  background-size: 24px;
+  background-position: center center;
+  border-radius: 10000px;
+  border: none;
+  outline: none;
+  text-indent: -999999px;
+}
+.OverlayContent {
+  margin-top: 75px;
+}
+.LedgerSet {
+  margin: 0 auto;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.LedgerItem {
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+.LedgerItem.Tapped {
+  animation: tapBlink 300ms 1;
+  -webkit-animation: tapBlink 300ms 1;
+}
+.LedgerRow {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+.LedgerCell {
+  font-size: 0.9rem;
+}
+.LedgerRow .ProgBarContainer {
+  margin-top: 0.9rem;
+}
+.LedgerRow .OverBudgetBarContainer {
+  margin-top: 0.9rem;
+}
+.RedText {
+  opacity: 1;
+  color: #f00;
+}
+.LedgerCellCenter {
+  position: absolute;
+  left: 30%;
+}
+@-moz-keyframes tapBlink {
+  0% {
+    background-color: rgba(0,0,0,0.2);
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@-webkit-keyframes tapBlink {
+  0% {
+    background-color: rgba(0,0,0,0.2);
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@-o-keyframes tapBlink {
+  0% {
+    background-color: rgba(0,0,0,0.2);
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@keyframes tapBlink {
+  0% {
+    background-color: rgba(0,0,0,0.2);
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+input[type=text] {
+  border: none;
+  margin-left: -3px;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  transition: all 200ms ease-out;
+  border-radius: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+input[type=text]:focus {
+  border-color: #000;
+  outline: none;
+}
+.Frap {
+  height: 50px;
+  outline: none;
+  text-align: right;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: transparent;
+  z-index: 99;
+  color: #000;
+  position: fixed;
+  top: 6px;
+  right: 16px;
+  transition: all 200ms ease-out;
+  opacity: 1;
+}
+.Frap.KeyboardOn {
+  top: calc(100vh - 140px);
+}
+.Frap.Inactive {
+  transform: translateY(10px);
+  opacity: 0;
+}
+.Selector {
+  width: 100%;
+}
